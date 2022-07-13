@@ -1,36 +1,123 @@
-h1{
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+h1 {
   font-size: 38px;
 }
 
-input[type=text] {
+input[type="text"] {
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 0px 0;
+  width: 600px;
   box-sizing: border-box;
   border: none;
   border-radius: 15px;
-  background-color: rgb(255, 249, 249);
+  background-color: rgb(237, 229, 229);
   color: rgb(10, 10, 10);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-  background-color: antiquewhite;
-  border-style: hidden;
+input[type="date"] {
+  padding: 12px 20px;
+  margin: 0px 0;
+  width: 600px;
+  box-sizing: border-box;
+  border: none;
   border-radius: 15px;
-  padding:18px;
-  text-align: center;
-  box-shadow: 0 8px 6px -6px black;
+  background-color: rgb(237, 229, 229);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
 }
-@media screen and (max-width:900px){
-    .main-contianer{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: space-between; 
-    }
-  
-  }
 
+/* input[type="submit"] {
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(108, 146, 108);
+  color: rgb(10, 10, 10) bold;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+@media screen and (max-width: 900px) {
+  .main-contianer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /* text-align: left; */
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  width: 300px;
+  text-align: left;
+}
+.form__row {
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+.bd-gov {
+  position:static;
+  top: 27%;
+  left: 25%;
+  right: 25%;
+  z-index: 0;
+  width: 400px;
+  height: 400px;
+  opacity: 0.3;
+}
+
+/* .main-contianer1{
+  background-image: url("https://certificate.upsheba.com/img/border-full.png");
+  background-image: url("https://certificate.upsheba.com/img/bd-gov.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: lighten;
+} */
+
+.main-contianer{
+  width: 190mm;
+  height: 275mm;
+  margin: auto;
+  padding: 5px 15px;
+  position: absolute;
+  margin: 10mm;
+  display: inline-block;
+  z-index: 99999;
+}
+
+.border-full {
+  position: absolute;
+  _bottom: 0px;
+}
+
+/* .uploadDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width: 300px;
+  text-align: left;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(202, 189, 189);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+} */
 
 
 
