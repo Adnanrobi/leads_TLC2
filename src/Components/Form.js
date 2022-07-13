@@ -333,9 +333,7 @@ class Form extends Component {
             </label>
           </div> */}
 
-          <div className="form__row">
             <input type="submit" value="Submit" />
-          </div>
         </form>
       </div>
     );
